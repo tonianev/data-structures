@@ -23,12 +23,6 @@ This repository contains implementations of common data structures in Python, al
 
 - Clone the repository: git clone https://github.com/yourusername/data-structures-python.git
 
-
-- Change to the repository directory:
-
-- cd data-structures-python
-
-
 ## Running the Tests
 
 - To run the tests, first install the required packages:
