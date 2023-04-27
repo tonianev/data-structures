@@ -9,7 +9,7 @@ This repository contains implementations of common data structures in Python, al
 - [Queue](src/queue.py)
 - [Doubly Linked List](src/doubly_linked_list.py)
 - [Binary Search Tree](src/binary_search_tree.py)
-- [Min_Heap](src/min_heap.py)
+- [Min Heap](src/min_heap.py)
 - [Hash Map](src/hash_map.py)
 - [Trie](src/trie.py)
 
