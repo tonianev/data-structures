@@ -32,5 +32,3 @@ This repository contains implementations of common data structures in Python, al
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
