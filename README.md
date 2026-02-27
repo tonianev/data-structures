@@ -1,34 +1,57 @@
 # Data Structures in Python
 
-This repository contains implementations of common data structures in Python, along with unit tests for each implementation. The purpose of this project is to provide a reference for those learning about data structures or seeking a quick refresher.
+Production-style reference implementations of core data structures with unit tests.
 
-## Implemented Data Structures
+## Status
+
+- Active maintenance
+- Intended as a clean, practical study and interview-prep reference
+
+## Included Data Structures
 
 - [Linked List](src/linked_list.py)
+- [Doubly Linked List](src/doubly_linked_list.py)
 - [Stack](src/stack.py)
 - [Queue](src/queue.py)
-- [Doubly Linked List](src/doubly_linked_list.py)
+- [Hash Map](src/hash_map.py)
 - [Binary Search Tree](src/binary_search_tree.py)
 - [Min Heap](src/min_heap.py)
-- [Hash Map](src/hash_map.py)
 - [Trie](src/trie.py)
+- [Union Find](src/union_find.py)
+- [Graph](src/graph.py)
 
-## Getting Started
+## Project Layout
 
-## Prerequisites
+```text
+data-structures/
+├── src/
+├── tests/
+├── requirements.txt
+└── setup.py
+```
 
-- Python 3.6 or later
+## Quickstart
 
-## Installation
+```bash
+git clone https://github.com/tonianev/data-structures.git
+cd data-structures
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-- Clone the repository: git clone https://github.com/yourusername/data-structures-python.git
+## Run Tests
 
-## Running the Tests
+```bash
+python -m unittest discover -s tests -v
+```
 
-- To run the tests, first install the required packages:
-- pip install -r requirements.txt
-- Then, execute the tests using pytest.
+## Why this repo exists
+
+- Provide readable, test-backed implementations for common structures
+- Demonstrate clear API contracts and expected behaviors
+- Keep examples lightweight and dependency-minimal
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT. See [LICENSE](LICENSE).
